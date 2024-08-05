@@ -70,6 +70,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
+<!--						used for Build packs method to generate docker image-->
 						<name>shashank185508/${project.artifactId}:s4</name>
 					</image>
 				</configuration>
